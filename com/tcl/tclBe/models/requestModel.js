@@ -12,9 +12,6 @@ mobile:{type:Number,required:true},
 inquiry:{type:String,required:true}
 
 
-
-
-
     }
 );
 const users = new mongoose.model("tclQuote",userModel);
